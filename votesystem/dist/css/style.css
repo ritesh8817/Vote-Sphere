@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #6dd5ed 0%, #2193b0 100%);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+.login-logo {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login-box-msg {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #2193b0;
+    box-shadow: 0 0 5px rgba(33, 147, 176, 0.8);
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4682B4;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #357ABD;
+    transform: translateY(-1px);
+}
+
+.alert {
+    margin-top: 20px;
+    background: #e74c3c;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.alert p {
+    margin: 0;
+}
+.voter-login-link {
+    margin-top: 15px;
+}
+
+.voter-login-link a {
+    color: #2193b0;
+    text-decoration: none;
+}
+
+.voter-login-link a:hover {
+    text-decoration: underline;
+}
